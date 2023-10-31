@@ -1,8 +1,6 @@
-# Project-01
+# NFT Dashbord
 
-NFT Dashbord
-
-## Project timeline and technologies used
+## Technologies used
 
 ### Technologies Used
 
