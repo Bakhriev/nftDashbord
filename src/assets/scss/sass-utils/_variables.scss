@@ -1,0 +1,40 @@
+//Burger Colors
+$burgerColor: #222;
+$burgerActiveColor: #222;
+
+// Medias
+$large: 1200px;
+$medium: 992px;
+$small: 768px;
+
+// z-index
+$burgerIndex: 4;
+$mobileMenuIndex: 3;
+$overlayIndex: 2;
+
+// Colors
+
+:root {
+	--app: #fff;
+	--border: #d9d9d9;
+	--product-tag: #f6faff;
+	--card: #f6faff;
+	--search: #f6faff;
+	--btn: #fff;
+	--text: #4d4a4a;
+	--title: #1b1a1e;
+	--blue: #0997ff;
+}
+
+// @media (prefers-color-scheme: dark) {
+// 	:root {
+// 		--app: #1c1e2a;
+// 		--border: #9b9da0;
+// 		--product-tag: #2d3040;
+// 		--card: #262c3a;
+// 		--search: #2e3140;
+// 		--btn: #1c1e2a;
+// 		--title: #fff;
+// 		--text: #d9d9d9;
+// 	}
+// }

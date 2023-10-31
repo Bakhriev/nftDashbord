@@ -1,0 +1,28 @@
+.navigation-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	// .navigation-menu__item
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 34px;
+
+		color: var(--text);
+		font-family: Poppins;
+		font-size: 18px;
+		text-transform: capitalize;
+
+		cursor: pointer;
+		user-select: none;
+
+		&_active {
+			color: var(--blue);
+		}
+	}
+}

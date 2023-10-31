@@ -1,0 +1,15 @@
+.navigation {
+	height: 100%;
+	border-right: 1px solid var(--border);
+
+	// .navigation__content
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 50px;
+
+		padding: 25px 30px;
+		height: 100%;
+	}
+}

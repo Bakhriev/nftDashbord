@@ -1,0 +1,51 @@
+.ad-card {
+	width: 270px;
+	padding: 30px 32px 35px 20px;
+	background:
+		url('../img/content/ad-card-bg.png') no-repeat center/cover,
+		#942bd9;
+
+	border-radius: 15px;
+
+	// .ad-card__title
+	&__title {
+		margin-bottom: 56px;
+		color: #fff9f9;
+		font-family: 'Space Grotesk';
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 128%;
+	}
+
+	// .ad-card__link
+	&__link {
+		position: relative;
+
+		display: block;
+		padding: 20px 42px 20px 18px;
+
+		border-radius: 12px;
+		background: #fff;
+		color: #000;
+		font-family: Poppins;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 128%;
+		text-decoration: none;
+		text-align: left;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 18px;
+			width: 24px;
+			height: 24px;
+			background-image: url('../img/svg/ad-arrow-right.svg');
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	}
+}
