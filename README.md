@@ -1,20 +1,20 @@
-## Использование Gulp 4 Usage of Gulp 4
+# Project-01
 
-## Начало работы Getting Started
+NFT Dashbord
 
-Для запуска проекта установите зависимости с помощью npm или yarn: <br>
-To start the project, install the dependencies using npm or yarn:
+## Project timeline and technologies used
 
-npm install <br>
-npm run dev
+### Technologies Used
 
-или <br> or
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- SCSS
+- Git
+- SVG/Sprite
+- GitHub
+- Gulp
 
-yarn <br>
-yarn dev
+<h3 align="left">Methodology BEM</h3>
 
-## SVG спрайт SVG Sprite
-
-<svg>
-    <use xlink:href="assets/img/svg/sprite.svg#arrow"></use>
-</svg>
+<h3 align="left"><a href="https://chipper-crepe-9a4b5b.netlify.app">Live Preview</a></h3>
