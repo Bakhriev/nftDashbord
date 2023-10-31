@@ -42,7 +42,7 @@ const path = {
 		html: srcPath + '*.html',
 		css: srcPath + 'assets/scss/**/*.scss',
 		js: srcPath + 'assets/js/*.js',
-		img: srcPath + 'assets/img/**/*.{jpg,jpeg,png,svg}',
+		img: srcPath + 'assets/img/**/*.{jpg,jpeg,png,svg,webp}',
 		video: srcPath + 'assets/video/**/*',
 		svg: srcPath + 'assets/img/svg/**/*.svg',
 		vendors: srcPath + 'assets/vendors/**/*.{css,js}',
@@ -167,13 +167,6 @@ function video() {
 	return src(path.src.video).pipe(dest(path.build.video))
 }
 
-function webpImg() {
-	return src(srcPath + 'assets/img/**/*.{jpeg,jpg,png}')
-		.pipe(webp())
-		.pipe(dest(distPath + 'assets/img/webp'))
-		.pipe(browserSync.reload({stream: true}))
-}
-
 function svg() {
 	return src(path.src.svg)
 		.pipe(
@@ -221,7 +214,7 @@ function prod(done) {
 
 const dev = series(
 	clean,
-	parallel(html, css, js, img, video, webpImg, svg, vendors, fonts),
+	parallel(html, css, js, img, video, svg, vendors, fonts),
 	serve
 )
 const build = series(
@@ -233,7 +226,6 @@ const build = series(
 		jsMinify,
 		imgMinify,
 		video,
-		webpImg,
 		svg,
 		vendors,
 		fonts
@@ -263,7 +255,6 @@ exports.css = css
 exports.js = js
 exports.img = img
 exports.video = video
-exports.webpImg = webpImg
 exports.svg = svg
 exports.dev = dev
 exports.vendors = vendors
