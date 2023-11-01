@@ -7,9 +7,12 @@
 // @components
 @import './components/ad-card';
 @import './components/navigation-menu';
+@import './components/search-form';
+@import './components/profile';
 
 // @layout
 @import './layout/navigation';
+@import './layout/header';
 
 // sass-utils
 @import './sass-utils/variables';

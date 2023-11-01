@@ -1,0 +1,40 @@
+.user {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+.notification {
+	// .notification_active
+
+	&_active {
+		position: relative;
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 4px;
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			background-color: #09d3ff;
+		}
+	}
+}
+.user-img {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	border-radius: 50%;
+	img {
+		border-radius: 50%;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.user-info {
+	color: var(--text);
+	font-family: 'Galano Grotesque';
+	font-size: 16px;
+	font-weight: 500;
+}
