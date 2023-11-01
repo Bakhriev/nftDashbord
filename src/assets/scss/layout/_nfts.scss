@@ -1,16 +1,21 @@
 .nfts {
 	// .nfts__category
-
 	&__category {
 		margin-bottom: 16px;
 	}
+	&__cards {
+		margin-bottom: 48px;
+	}
+}
+.nft-tags.nfts__tags {
+	margin-bottom: 30px;
 }
 .category {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	// .category__title
 
+	// .category__title
 	&__title {
 		color: var(--title);
 		font-family: 'Space Grotesk';
@@ -21,7 +26,6 @@
 	}
 
 	// .category__count
-
 	&__count {
 		color: var(--text-gray);
 		font-family: Poppins;
@@ -35,6 +39,7 @@
 		margin-left: auto;
 	}
 }
+
 .btn-more {
 	padding: 0;
 	border: none;
@@ -45,6 +50,7 @@
 	font-size: 16px;
 	font-weight: 400;
 }
+
 .nft-tags {
 	margin: 0;
 	padding: 0;
@@ -53,6 +59,7 @@
 	flex-wrap: wrap;
 	gap: 15px 15px;
 }
+
 .nft-tag {
 	position: relative;
 	display: flex;
@@ -62,7 +69,9 @@
 	border-radius: 12px;
 	background: var(--product-tag);
 
-	color: #9b9da0;
+	cursor: pointer;
+
+	color: var(--text-gray);
 	font-family: Poppins;
 	font-size: 14px;
 	font-weight: 500;
@@ -91,12 +100,15 @@
 [data-img='game'] {
 	background-image: url('../img/content/tags/game.png');
 }
+
 [data-img='music'] {
 	background-image: url('../img/content/tags/music.png');
 }
+
 [data-img='sport'] {
 	background-image: url('../img/content/tags/sport.png');
 }
+
 [data-img='photo'] {
 	background-image: url('../img/content/tags/photo.png');
 }

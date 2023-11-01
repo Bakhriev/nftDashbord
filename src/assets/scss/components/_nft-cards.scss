@@ -1,0 +1,144 @@
+.nft-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.nft-card {
+	width: 300px;
+	padding: 12px 12px 15px 12px;
+	border-radius: 12px;
+	background: var(--card);
+	// .nft-card__top
+
+	&__top {
+		margin-bottom: 8px;
+		height: 240px;
+		width: 100%;
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	// .nft-card__img
+
+	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	// .nft-card__body
+
+	&__body {
+		margin-bottom: 30px;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		justify-content: space-between;
+	}
+
+	// .nft-card__info
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	// .nft-card__title
+
+	&__title {
+		color: #130f26;
+		font-family: Space Grotesk;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 114%;
+	}
+
+	// .nft-card__tag
+
+	&__tag {
+		color: var(--text-gray);
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 114%;
+	}
+
+	// .nft-card__user-img
+
+	&__user-img {
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	// .nft-card__bottom
+
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .nft-card__price-info
+
+	&__price-info {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	// .nft-card__bid
+
+	&__bid {
+		color: var(--text-gray);
+		font-family: Poppins;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 114%;
+	}
+
+	// .nft-card__price
+
+	&__price {
+		color: var(--card-title);
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 114%;
+	}
+
+	// .nft-card__time-info
+
+	&__time-info {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	// .nft-card__ending
+
+	&__ending {
+		color: var(--text-gray);
+		font-family: Poppins;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 114%;
+	}
+
+	// .nft-card__time
+
+	&__time {
+		color: var(--card-title);
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 114%;
+	}
+}
