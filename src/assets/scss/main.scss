@@ -9,10 +9,12 @@
 @import './components/navigation-menu';
 @import './components/search-form';
 @import './components/profile';
+@import './components/info-card';
 
 // @layout
 @import './layout/navigation';
 @import './layout/header';
+@import './layout/nfts';
 
 // sass-utils
 @import './sass-utils/variables';

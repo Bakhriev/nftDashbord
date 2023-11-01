@@ -1,0 +1,102 @@
+.nfts {
+	// .nfts__category
+
+	&__category {
+		margin-bottom: 16px;
+	}
+}
+.category {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	// .category__title
+
+	&__title {
+		color: var(--title);
+		font-family: 'Space Grotesk';
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 114%;
+		margin-right: 34px;
+	}
+
+	// .category__count
+
+	&__count {
+		color: var(--text-gray);
+		font-family: Poppins;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 169%;
+	}
+
+	&__btn {
+		margin-left: auto;
+	}
+}
+.btn-more {
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	color: var(--text-aqua);
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+}
+.nft-tags {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px 15px;
+}
+.nft-tag {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 6px 25px 6px 6px;
+	border-radius: 12px;
+	background: var(--product-tag);
+
+	color: #9b9da0;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+[data-img] {
+	display: grid;
+	place-items: center;
+	background-color: var(--btn);
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	background-position: center center;
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+}
+
+[data-img='popular'] {
+	background-image: url('../img/content/tags/popular.png');
+}
+
+[data-img='art'] {
+	background-image: url('../img/content/tags/art.png');
+}
+
+[data-img='game'] {
+	background-image: url('../img/content/tags/game.png');
+}
+[data-img='music'] {
+	background-image: url('../img/content/tags/music.png');
+}
+[data-img='sport'] {
+	background-image: url('../img/content/tags/sport.png');
+}
+[data-img='photo'] {
+	background-image: url('../img/content/tags/photo.png');
+}

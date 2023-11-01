@@ -1,0 +1,77 @@
+.info-card {
+	position: relative;
+	background-color: #0997ff;
+	border-radius: 12px;
+	padding-left: 53px;
+	padding-top: 32px;
+	padding-bottom: 30px;
+	padding-right: 20px;
+	&_position {
+		margin-bottom: 56px;
+	}
+
+	// .info-card__content
+	&__content {
+		position: relative;
+		z-index: 1;
+		max-width: 490px;
+	}
+
+	// .info-card__title
+	&__title {
+		margin-bottom: 15px;
+		color: #fff9f9;
+		font-family: 'Space Grotesk';
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 114%;
+	}
+
+	// .info-card__subtitle
+	&__subtitle {
+		margin-bottom: 26px;
+		color: #fff;
+		font-family: Poppins;
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	// .info-card__btns
+	&__btns {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 16px;
+	}
+
+	// .info-card__btn
+	&__btn {
+		padding: 22px 25px;
+		border-radius: 8px;
+		border: 1px solid #fff;
+		cursor: pointer;
+
+		font-family: Poppins;
+		font-size: 18px;
+		font-weight: 500;
+
+		// .info-card__btn_primary
+		&_primary {
+			color: var(--blue);
+
+			background-color: #fff;
+		}
+		// .info-card__btn_secondary
+		&_secondary {
+			color: #fff;
+			background-color: transparent;
+		}
+	}
+
+	// .info-card__img
+	&__img {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}

@@ -71,6 +71,7 @@ body {
 .layout-main {
 	display: grid;
 	grid-template-columns: 1fr 540px;
+	gap: 26px;
 }
 
 .navigate-panel {
@@ -80,12 +81,19 @@ body {
 }
 
 .content-panel {
+	padding: 20px 24px;
 }
 
 .info-panel {
+	height: 100%;
+	padding: 20px 24px;
+	&__content {
+		background-color: var(--info-bg);
+		height: 100%;
+	}
 }
 
-*[data-icon] {
+[data-icon] {
 	width: 20px;
 	height: 20px;
 	fill: var(--svg-bg);
