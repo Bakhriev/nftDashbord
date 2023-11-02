@@ -1,0 +1,131 @@
+.balance-card {
+	padding: 30px;
+	border-radius: 12px;
+	background-color: var(--app);
+	// .balance-card_position
+
+	&_position {
+		margin-bottom: 30px;
+	}
+
+	// .balance-card__title
+
+	&__title {
+		margin-bottom: 20px;
+		color: var(--title);
+		font-family: Poppins;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 114%;
+	}
+
+	// .balance-card__balance
+
+	&__balance {
+		margin-bottom: 20px;
+		color: var(--title);
+		font-family: 'Space Grotesk';
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 114%;
+	}
+
+	// .balance-card__info
+
+	&__info {
+		display: flex;
+		align-items: center;
+		margin-bottom: 50px;
+	}
+
+	// .balance-card__total
+
+	&__total {
+		margin-right: 20px;
+		color: #c4c4c4;
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 169%;
+	}
+
+	// .balance-card__usd
+
+	&__usd {
+		margin-right: 6px;
+		color: var(--card-title);
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 169%;
+	}
+
+	// .balance-card__percent
+
+	&__percent {
+		color: #73c255;
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 169%;
+	}
+
+	// .balance-card__copy
+
+	&__copy {
+		margin-bottom: 20px;
+		display: flex;
+		gap: 10px;
+		align-items: center;
+	}
+
+	// .balance-card__copy-text
+
+	&__copy-text {
+		color: #c4c4c4;
+		font-family: Poppins;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 169%;
+	}
+
+	// .balance-card__copy-btn
+
+	&__copy-btn {
+		padding: 0;
+		cursor: pointer;
+		border: none;
+		background-color: transparent;
+		width: 20px;
+		height: 24px;
+	}
+	&__copy-btn-icon {
+		width: 20px;
+		height: 24px;
+	}
+
+	// .balance-card__btn
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 13px;
+		cursor: pointer;
+		padding: 20px;
+		width: 100%;
+		border-radius: 8px;
+		background: #0997ff;
+		border: none;
+
+		color: #fff;
+		font-family: Poppins;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 114%;
+	}
+	&__btn-icon {
+		width: 36px;
+		height: 36px;
+	}
+}

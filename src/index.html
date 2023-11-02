@@ -11,7 +11,9 @@
 		<div class="wrapper">
 			<div class="layout">
 				<div class="navigate-panel custom-scrollbar">
-					@include('./assets/layout/components/navigation.html')
+					<div class="navigate-panel__content">
+						@include('./assets/layout/components/navigation.html')
+					</div>
 				</div>
 				<div>
 					<div class="header-panel">
@@ -21,12 +23,15 @@
 						</div>
 					</div>
 					<div class="layout-main">
-						<div class="content-panel">
+						<div class="content-panel custom-scrollbar">
 							@include('./assets/layout/components/info-card.html')
 							@include('./assets/layout/nfts.html')
 						</div>
-						<div class="info-panel">
-							<div class="info-panel__content"></div>
+						<div class="info-panel custom-scrollbar">
+							<div class="info-panel__content">
+								@include('./assets/layout/components/balance-card.html')
+								@include('./assets/layout/components/top-sellers.html')
+							</div>
 						</div>
 					</div>
 				</div>

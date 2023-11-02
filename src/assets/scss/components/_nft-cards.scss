@@ -1,11 +1,12 @@
 .nft-cards {
 	display: flex;
 	flex-wrap: wrap;
+	gap: 20px 20px;
 	justify-content: space-between;
 }
 
 .nft-card {
-	width: 300px;
+	width: 290px;
 	padding: 12px 12px 15px 12px;
 	border-radius: 12px;
 	background: var(--card);
@@ -47,7 +48,7 @@
 	// .nft-card__title
 
 	&__title {
-		color: #130f26;
+		color: var(--card-title);
 		font-family: Space Grotesk;
 		font-size: 20px;
 		font-weight: 700;

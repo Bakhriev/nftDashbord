@@ -29,20 +29,22 @@ $overlayIndex: 2;
 	--text-gray: #9b9da0;
 	--text-aqua: #24d4fb;
 	--card-title: #130f26;
+	--black: #000;
 }
 
-// @media (prefers-color-scheme: dark) {
-// 	:root {
-// 		--app: #1c1e2a;
-// 		--border: #9b9da0;
-// 		--product-tag: #2d3040;
-// 		--card: #262c3a;
-// 		--search: #2e3140;
-// 		--btn: #1c1e2a;
-// 		--title: #fff;
-// 		--text: #d9d9d9;
-// 		--svg-bg: #d9d9d9;
-// 		--info-bg: #2e3140;
-// --card-title: #fff;
-// 	}
-// }
+@media (prefers-color-scheme: dark) {
+	:root {
+		--app: #1c1e2a;
+		--border: #9b9da0;
+		--product-tag: #2d3040;
+		--card: #262c3a;
+		--search: #2e3140;
+		--btn: #1c1e2a;
+		--title: #fff;
+		--text: #d9d9d9;
+		--svg-bg: #d9d9d9;
+		--info-bg: #2e3140;
+		--card-title: #fff;
+		--black: #fff;
+	}
+}
